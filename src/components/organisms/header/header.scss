@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+
+    :nth-child(-n +2){
+        text-align: center;
+        flex-grow: 1;
+    }
+}
